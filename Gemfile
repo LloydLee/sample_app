@@ -5,7 +5,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'pg', '0.15.1'
-gem 'bcrypt-ruby'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
@@ -22,6 +22,7 @@ group :test do
   gem 'rb-notifu', '0.0.4'
   gem 'wdm', '0.1.0'
   gem 'sqlite3'
+  gem 'factory_girl_rails'
 end
 
 gem 'sass-rails', '4.0.0'
